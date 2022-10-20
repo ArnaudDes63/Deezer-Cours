@@ -1,0 +1,89 @@
+@media (max-width: 1200px) {
+  .menu {
+    width: 60%;
+  }
+
+  .connexion,
+  .register {
+    width: 26%;
+    margin-right: 15px;
+  }
+
+  .link {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+  }
+
+  .offer {
+    width: 40%;
+  }
+
+  .title-1 {
+    font-size: 25px;
+  }
+
+  .title-2 {
+    font-size: 40px;
+  }
+
+  .title-3 {
+    font-size: 18px;
+  }
+
+  .email-container {
+    width: 55%;
+  }
+
+  .email {
+    font-size: 12px;
+  }
+
+  .menu-burger {
+    display: block;
+  }
+
+  .inactive {
+    display: none !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .offer {
+    width: 60%;
+  }
+
+  .email-container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .offer {
+    width: 60%;
+  }
+
+  .email-container {
+    width: 80%;
+  }
+
+  .email {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1073px) {
+  .email {
+    font-size: 15px;
+  }
+}
