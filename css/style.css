@@ -4,7 +4,7 @@ h2 {
   margin: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -213,13 +213,12 @@ ul {
   display: none !important;
 }
 
-.nav-menu-burger{
+.nav-menu-burger {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   padding-top: 2vh;
-
 }
 
 .nav-menu-burger p {

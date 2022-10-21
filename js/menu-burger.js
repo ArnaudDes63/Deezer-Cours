@@ -25,8 +25,6 @@
 
 //  ********************************************************************************************      //
 
-
-
 function handleMenu(value) {
   if (value === true) {
     openBtn.classList.add('inactive')
@@ -40,5 +38,3 @@ function handleMenu(value) {
     mainContent.classList.remove('inactive')
   }
 }
-
-
